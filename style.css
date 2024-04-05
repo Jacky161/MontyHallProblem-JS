@@ -1,0 +1,44 @@
+html {
+    background: gray;
+}
+
+body {
+    background: rgba(255, 255, 255, 0.7);
+    width: 600px;
+    padding: 25px 100px;
+    text-align: center;
+    margin: 25px auto;
+    border-radius: 25px;
+}
+
+.door-img {
+    border: 2px solid grey;
+    margin: 0 5px;
+    cursor: pointer;
+    height: 200px;
+}
+
+.active {
+    border: 2px solid red;
+}
+
+#nextDialogue-btn {
+    display: none;
+}
+
+#noSwitch {
+    display: none;
+}
+
+#yesSwitch {
+    display: none;
+}
+
+button {
+    background: cyan;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+  }

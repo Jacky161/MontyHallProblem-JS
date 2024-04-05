@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Monty Hall Problem</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>The Monty Hall Problem</h1>
+    <hr>
+
+    <h2>Monty's Speech:</h2>
+    <p id="dialogue">
+      Pick one of three doors! If you pick the right one, you'll win a car so choose wisely! Pick the wrong one however, and you get nothing!
+    </p>
+    <p>
+      <button id="yesSwitch">Switch</button>
+      <button id="nextDialogue-btn">Next</button>
+      <button id="noSwitch">Don't Switch</button>
+    </p>
+    <hr>
+
+    <h2>Choose a door...</h2>
+    <p>
+      <img id="door1" class="door-img" src="img/Closed Door.png" alt="Closed Door 1">
+      <img id="door2" class="door-img" src="img/Closed Door.png" alt="Closed Door 2">
+      <img id="door3" class="door-img" src="img/Closed Door.png" alt="Closed Door 3">
+    </p>
+    <hr>
+
+    <h2>Play Automatically Settings:</h2>
+    <p>
+      These settings will adjust how many games to play automatically. Press the button to start simulating games.
+    </p>
+    <p># of Games to Simulate: <input id="numOfGames-in" type="number" min="1"></p>
+    <p><button id="simulate-btn">Simulate</button></p>
+    <hr>
+
+    <h2>Stats:</h2>
+    <p>
+      Total Games: <span id="gameAmt">0</span>
+    </p>
+    <p>
+      Total Wins: <span id="winsAmt">0</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      Total Losses: <span id="lossAmt">0</span>
+    </p>
+    <p>
+      Total Wins When Switched: <span id="winAmtWhenSwitched">0</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      Total Losses When Switched: <span id="lossAmtWhenSwitched">0</span>
+    </p>
+    <p>
+      Total Wins When Stayed: <span id="winAmtWhenStayed">0</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      Total Losses When Stayed: <span id="lossAmtWhenStayed">0</span>
+    </p>
+    <script src="script.js"></script>
+  </body>
+</html>
