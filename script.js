@@ -265,8 +265,8 @@ function notSwitching() {
 
 // This function will play one full game automatically
 function playAutomatically() {
-    // Whether the ai will switch or stay
-    let aiSwitching = false;
+    // Whether the ai will switch or stay (random)
+    let aiSwitching = Math.random() < 0.5;
     let aiDoorChoice;
     
     // Choose the ai door choice randomly
