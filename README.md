@@ -1,5 +1,7 @@
 # MontyHallProblem-JS
 
+https://jacky161.github.io/MontyHallProblem-JS/
+
 ## What is the Monty Hall Problem?
 The Monty Hall Problem is a famous mathematical probablity paradox. The scenario goes that there is a gameshow host named Monty in which there are three doors. Behind one door is a car (or some big prize). The other doors have nothing. The player picks a door and then Monty will open one of the other two doors. The door he opens **always** has nothing behind it. Then, he offers the player the chance to switch or to stay with the door they picked. 
 
